@@ -5,18 +5,14 @@
 #include "esp_log.h"
 #include "nvs_flash.h"
 
-// wifi
-#include "wifi.h"
+// wifi tcp socket
+#include "wifi_tcp.h"
+
 // // sd
 // #include "sdcard.h"
 // lcd
 #include "lcd.h"
 
-// socket
-#include "lwip/err.h"
-#include "lwip/sys.h"
-#include "lwip/sockets.h"
-#include "lwip/netdb.h"
 
 #define PORT 3333
 #define KEEPALIVE_IDLE 5
